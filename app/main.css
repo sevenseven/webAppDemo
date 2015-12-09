@@ -43,10 +43,16 @@ header {
   right: 0;
   z-index: 2; }
   header .searchbox-container {
-    margin-left: 240px;
-    max-width: 400px; }
+    /*margin-left: 240px;*/
+    position: absolute;
+    left: 33.33%;
+    width: 50%;
+    max-width: 500px; }
     header .searchbox-container .input-group {
-      margin-top: 5px; }
+      /*margin-top: 5px;*/
+      width: 60%;
+      max-width: 297px;
+    }
       header .searchbox-container .input-group .form-control:focus {
         outline: none;
         box-shadow: none; }
@@ -196,3 +202,13 @@ section {
 .upload:hover {
   background-position: 0px -42px;
 }
+
+/* add */
+.searchbox-ipt { height: 40px; }
+.header-btn { padding: 6px 12px; font-size: 18px; }
+.margin-bottom { margin-right: 18px; }
+.main { padding-top: 67px; }
+.search-nav { width: 50%; max-width: 500px; margin-left: 33.33%; height: 34px; }
+.search-nav > ul { list-style: none; padding: 0; margin: 0; }
+.search-nav > ul > li { float: left; width: 50px; line-height: 24px; padding: 5px 0; margin: 0 20px; display: block; }
+.search-nav > ul > li > b { border-bottom: 2px #337ab7 solid; display: block; }

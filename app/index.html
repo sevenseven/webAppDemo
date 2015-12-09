@@ -17,28 +17,29 @@
 <body>
 
   <header class="row">
-    <div class="">
+    <div class="pull-left">
       <a href="https://community.algolia.com/instantsearch.js/" class="is-logo"><img src="img/storage_4.png" width=40 ></a>
       <a href="./" class="logo">资料查询<i class="fa fa-cloud"></i></a>
     </div>
-    <div class="searchbox-container pull-left">
-      <div class="input-group">
-        <input type="text" class="form-control" id="q" />
+    <div class="searchbox-container">
+      <div class="input-group pull-left">
+        <input type="text" class="searchbox-ipt form-control" id="q" />
         <span class="input-group-btn">
-          <button class="btn btn-default"><i class="fa fa-search"></i></button>
+          <button class="btn btn-default header-btn"><i class="fa fa-search"></i></button>
         </span>
+      </div>
+      <div class="upbox pull-right">
+        <a class="upload" id="upload" href="http://wenku.baidu.com/new?fr=search" target="_blank"></a>
       </div>
     </div>
 
 
-    <div class="upbox pull-left">
-      <a class="upload" id="upload" href="http://wenku.baidu.com/new?fr=search" target="_blank"></a>
-    </div>
 
-    <div class="margin-bottom">
+
+    <div class="margin-bottom pull-right">
       <div class="btn-group">
-        <a class="btn btn-primary" href="#"><i class="fa fa-user fa-fw"></i> User</a>
-        <a aria-expanded="false" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#">
+        <a class="btn btn-primary header-btn" href="#"><i class="fa fa-user fa-fw"></i> User</a>
+        <a aria-expanded="false" class="btn btn-primary dropdown-toggle header-btn" data-toggle="dropdown" href="#">
           <span class="fa fa-caret-down"></span></a>
         <ul class="dropdown-menu">
           <li><a href="#"><i class="fa fa-pencil fa-fw"></i> Edit</a></li>
@@ -50,6 +51,22 @@
       </div>
     </div>
   </header>
+  <main class="row main">
+    <div class="search-nav">
+      <ul class="text-center pull-left">
+        <li>
+          <a href="#">文 档</a>
+        </li>
+        <li>
+          <a href="#">图 片</a>
+        </li>
+        <li>
+          <b>视 频</b>
+        </li>
+      </ul>
+    </div>
+
+  </main>
 
 
 
@@ -59,14 +76,13 @@
 
 
 
-
-  <script src="https://cdn.jsdelivr.net/jquery/2.1.4/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
-
-  <script src="https://cdn.jsdelivr.net/instantsearch.js/1/instantsearch.min.js"></script>
+  <!--<script src="https://cdn.jsdelivr.net/jquery/2.1.4/jquery.min.js"></script>-->
+  <!--<script src="https://cdn.jsdelivr.net/bootstrap/3.3.6/js/bootstrap.min.js"></script>-->
 
 
-  <script src="search.js"></script>
+  <!--<script src="https://cdn.jsdelivr.net/instantsearch.js/1/instantsearch.min.js"></script>-->
+
+
+  <!--<script src="search.js"></script>-->
 </body>
 </html>
