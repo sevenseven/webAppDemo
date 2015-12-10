@@ -211,4 +211,6 @@ section {
 .search-nav { width: 50%; max-width: 500px; margin-left: 33.33%; height: 34px; }
 .search-nav > ul { list-style: none; padding: 0; margin: 0; }
 .search-nav > ul > li { float: left; width: 50px; line-height: 24px; padding: 5px 0; margin: 0 20px; display: block; }
-.search-nav > ul > li > b { border-bottom: 2px #337ab7 solid; display: block; }
+.search-nav > ul > li > b { border-bottom: 2px #337ab7 solid; display: block; color: #333; }
+.search-nav > ul > li > a { color: #666; }
+.search-nav > ul > li > a:hover, .search-nav > ul > li > a:focus { text-decoration: none; color: #333; }
